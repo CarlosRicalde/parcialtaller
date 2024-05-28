@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos MATIAS</title>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Oswald:wght@200..700&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Oswald:wght@200..700&family=Poetsen+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header id="header" onclick="mostrar()">
+        <h1 class="titulo">Productos regionales MATIAS</h1>
+    </header>
+    <div class="menu">
+        <a href="index.html">
+            <img class ='boton_inicio'src="imagenes/prod_logo_blanco.png">
+        </a>
+        <a class="acerca" href="about.html">Acerca de nosotros</a>
+        <a class="productos" href="product.html">Productos</a>
+        <a class="contacto" href="contact.html">Contactanos aqui</a>
+    </div>
+    <p class="intro">Fabrica de productos artesanales, realizamos ventas por mayor y menor. Envios a todo el pais.</p>
+    <h2 class="subtitulo">PALETAS Y CORAZONES</h2>
+    <div clas="pyc">
+        <img class="paleta" src="imagenes/paletas.webp"/>
+        <img class="corazon" src="imagenes/corazon.jpg"/>
+    </div>
+    <p> Paleta y Corazon de caramelo, tipo de dulce sólido, montado en un palito y que se consume chupándolo.
+        Está hecha principalmente de azúcar, jarabe de maíz y agua, se cocinan juntos hasta alcanzar una alta temperatura para crear una mezcla dura y transparente.
+        Se le añaden colorantes y saborizantes para darle diversos sabores y colores. Se utilizan moldes redondos y de corazones.
+    </p>
+    <h2 class="subtitulo">CHOCOLATE EN RAMA</h2>
+    <div class="chocoybaston">
+        <img class="foto" src="imagenes/chocolate-en-rama.jpg"/>
+    </div>
+    <p>Chocolate en rama, se presenta en finas y delicadas virutas o ramas, lo que le da una textura ligera y crujiente. 
+        Está hecho de chocolate puro, generalmente utilizando cacao, manteca de cacao, y azúcar.</p>
+    <h2 class="subtitulo">BASTON DE NAVIDAD</h2>
+    <div class="chocoybaston">
+        <img class="foto" src="imagenes/baston-caramelo.jpg"/>
+    </div>
+    <p>Baston de caramelo. Al igual que la paleta y corazon, está hecho principalmente de azúcar, jarabe de maíz y agua, a los que se añaden colorantes y saborizantes
+        La mezcla se cocina, se estira y se dobla en la forma característica de bastón, a menudo con rayas de colores.
+    </p>
+    <footer id="footer">
+        <div class="arbolynoel">
+            <img class="arbol" src="imagenes/img-arbol.jpeg"/>
+            <img class="noel" src="imagenes/img-papanoel-etiq.jpeg"/>
+            <div class="ultimomenu">
+                <ul class="lista">
+                    <li><a class="ultiopcion" href="about.html">Acerca de nosotros</a></li>
+                    <li><a class="ultiopcion" href="product.html">Productos</a></li>
+                    <li><a class="ultiopcion" href="contact.html">Contactanos aqui</a></li>
+                    <li><a class="ultiopcion" href="home.html"</a>Inicio</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function mostrar(){
+            var title = "Bienvenido";
+            title = document.getElementById("header").value;
+
+            alert("BIENVENIDO!!!" + title);
+        }
+    </script>
+</body>
+</html>
