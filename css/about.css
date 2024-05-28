@@ -1,0 +1,113 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-image: url("fondo-caramelos-trans.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+* {
+    font-family: 'Roboto Slab';
+}
+#header { 
+    height: 200px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px black solid;
+    text-align: center;
+    background-color: rgb(143, 25, 25);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Poetsen One';
+    margin-top: 50px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(143, 25, 25);
+    border: 1px black solid;
+}
+
+.boton_inicio {
+    width: 80px;
+    height: 80px;
+}
+.acerca {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 550px;
+    margin-right: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+.productos {
+    font-size: 15px;
+    margin-right: 150px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.contacto {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.subtitulo {
+    margin: 50px 0 50px 100px;
+    font-size: 50px;
+    font-family: 'Poetsen One';
+    color: white;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+    color: white;
+}
+
+#footer {
+    background-color: rgb(143, 25, 25);
+    height: 400px;
+    margin-top: 100px;
+}
+
+.arbolynoel {
+    display: flex;
+    margin-left: 50px;
+}
+
+.arbol {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.noel {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lista {
+    list-style-type: none;
+    margin: 100px 100px 200px 300px;
+}
+
+.ultiopcion {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
